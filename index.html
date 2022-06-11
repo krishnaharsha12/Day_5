@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,77 +20,93 @@
       .container div:nth-child(even){
         border-color: rgb(224, 20, 20);
       }
-      .container span:numericp(){
+      .container span:nth-child(even){
       color: rgb(37, 224, 20);
-      }
-      .container span:{
-       color: blue;
        
+      }
+      .container strong span:last-of-type{
+        color: blue;
+      }
+      .container .child span:not(:last-of-type){
+        position: relative;
+        width: 50px;
+        color: yellow;
+      }
+      .container:hover{
+
+        position: absolute;
+        top: 0;
+        left: 30px;
+        height: 100%;
+        z-index: 1;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-      <div>
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
+    <div class="container"
+    class=:hover>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <strong><span>D</span></strong>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div class="child">
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
+        <div>
+          <span>A</span>
+          <span>B</span>
+          <span>C</span>
+          <span>D</span>
+        </div>
       </div>
     </div>
   </body>
 </html>
+
