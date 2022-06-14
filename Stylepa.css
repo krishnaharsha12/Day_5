@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+  width: 50rem;
+  height: 20rem;
+  max-width: 300px;
+  }
+  .container img {
+    width: 100%;
+    top: 50px;
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 11px 10px 7px 0px rgba(0,0,0,0.64);
+  -webkit-box-shadow: 11px 10px 7px 0px rgba(0,0,0,0.64);
+  -moz-box-shadow: 11px 10px 7px 0px rgba(0,0,0,0.64);
+  }
+  
+.container .btn {
+  position: absolute;
+  top: 3rem;
+  left: 15rem;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 18px;
+  padding: 14px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.icon img{
+ position: absolute;
+ max-width: 5%;
+ left: 250px;
+ top: 26rem;
+ height: 30px ;
+
+}
+.icon1 img{
+  background-color: white;
+  position: absolute;
+  max-width: 5%;
+  left: 200px;
+  top: 26rem;
+  height: 30px ;
+  border-radius: 15px;
+  
+ }
