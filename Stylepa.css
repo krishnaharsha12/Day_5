@@ -13,7 +13,9 @@
   -webkit-box-shadow: 11px 10px 7px 0px rgba(0,0,0,0.64);
   -moz-box-shadow: 11px 10px 7px 0px rgba(0,0,0,0.64);
   }
-  
+  .container img:hover {
+    opacity: 0.5;
+  }
 .container .btn {
   position: absolute;
   top: 3rem;
@@ -33,22 +35,54 @@
 .container .btn:hover {
   background-color: rgb(255, 0, 0);
 }
-
-.icon img{
+.upload i{
  position: absolute;
- max-width: 5%;
- left: 250px;
- top: 26rem;
- height: 30px ;
-
+ max-width: 100%;
+ left: 270px;
+ top: 26.5rem;
+ height: 100rem;
+ color: aliceblue;
+ border-radius: 10px ;
 }
-.icon1 img{
+ .biometric i{
+  position: absolute;
+  max-width: 100%;
+  left: 197px;
+  top: 26.5rem;
+  height: 100rem;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  
+ }
+.icon img{
   background-color: white;
   position: absolute;
   max-width: 5%;
-  left: 200px;
-  top: 26rem;
-  height: 30px ;
+  left: 230px;
+  top: 26.3rem;
+  height: 23px ;
   border-radius: 15px;
   
  }
+ .search img{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  max-width: 100%;
+  left: 30px;
+  top: 26.5rem;
+  height: 18px ;
+  
+  
+ }
+ .search p{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  max-width: 50%;
+  left: 50px;
+  top: 25.5rem;
+  height: 25px;
+  
+  border-radius: 10px; 
+ }
+ 
+ 
